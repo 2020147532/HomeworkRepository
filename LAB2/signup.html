@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign up</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to CRYPTO SHOP</h1>
+        <p>회원가입</p>
+        <form name="signup_form" method="post">
+            <table width="900">
+                <tr height="2" bgcolor="3DF18E"><td colspan="2"></td></tr>
+                <tr>
+                  <th> 이름</th>
+                  <td><input type="text" id="user_name" placeholder="이름을 입력하세요" autofocus required></td>
+                </tr>
+                <tr>
+                  <th>아이디</th>
+                  <td><input type="text" id="user_id" placeholder="아이디를 입력하세요" autocomplete="username" required> 6자 이상</td>
+                </tr>
+                <tr>
+                  <th>비밀번호</th>
+                  <td><input type="password" id="user_pw" placeholder="비밀번호를 입력하세요" required> 영문 (숫자 포함 6자 이상)</td>
+                </tr>
+                <tr>
+                  <th>비밀번호 확인</th>
+                  <td><input type="password" id="user_pw_re" placeholder="비밀번호 확인" required></td>
+                </tr>
+                <tr>
+                   <th>핸드폰 번호</th>
+                   <td><input type="tel" id="phone" placeholder="010-1234-5678" pattern="(010)-\d{3,4}-\d{4}" title="형식 010-1234-5678" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" id="signup_button" value="회원가입">
+                        <input type="reset" id="cancle_button" value="취소">
+                    </td>
+                </tr>
+                <tr height="2" bgcolor="3DF18E">
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" id="login_redirect" value="로그인" onClick="location.href='login.html'"> 
+    </body>
+</html>

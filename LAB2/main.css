@@ -1,0 +1,27 @@
+
+h1 {
+    font-family: fantasy;
+    color:lightskyblue;
+    width: 200px;
+    height: auto;
+}
+
+table {
+    padding: 5px 0 5px 0;
+    font-size: 90%;
+}
+
+#login_button, #signup_button, #cancle_button {
+    border: double;
+    background-color:#3DF18E;
+    padding: 5px 20px 5px;
+    margin: 5% 0;
+}
+
+#signup_redirect, #login_redirect {
+    border: double;
+    text-align: left;
+    background-color:#3DF18E;
+    padding: 5px 20px 5px;
+    margin: 0 10px 50px 80%;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Log in</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+        <h1>Welcome to CRYPTO SHOP</h1>
+        <p>로그인</p>
+        <form name="login_form" method="post">
+            <table width="900">
+                <tr height="2" bgcolor="3DF18E"><td colspan="2"></td></tr>
+                <tr>
+                  <th>아이디</th>
+                  <td><input type="text" id="user_id" placeholder="아이디를 입력하세요" autocomplete="username" required></td>
+                </tr>
+                <tr>
+                  <th>비밀번호</th>
+                  <td><input type="password" id="user_pw" placeholder="비밀번호를 입력하세요" required></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" id="login_button" value="로그인"></td>
+                </tr>
+                <tr height="2" bgcolor="3DF18E">
+                    <td colspan="2"></td>
+                </tr>
+            </table>
+        </form>
+        <input type="button" id="signup_redirect" value="회원가입" onClick="location.href='signup.html'">
+    </body>
+</html>
